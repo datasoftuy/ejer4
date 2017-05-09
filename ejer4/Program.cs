@@ -10,15 +10,15 @@ namespace ejer4
         static void Main(string[] args)
         {
 
-            double num1, num2;
+            float num1, num2;
 
             Console.WriteLine("Ingrese el primer numero");
-            num1 = Convert.ToDouble(Console.ReadLine());
+            num1 = Convert.ToInt64(Console.ReadLine());
 
 
 
             Console.WriteLine("Ingrese el segundo numero");
-            num2 = Convert.ToDouble(Console.ReadLine());
+            num2 = Convert.ToInt64(Console.ReadLine());
 
             if (num1 == 0)
             {
@@ -28,7 +28,7 @@ namespace ejer4
 
             else
             {
-                Console.WriteLine("Numero 1 / Numero 2 ="+ num1 / num2 );
+                Console.WriteLine("Numero 1 / Numero 2 = "+ num1 / num2 );
                 Console.WriteLine("El resto de la division es " + num1 % num2);
             }
             
