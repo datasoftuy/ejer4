@@ -22,7 +22,7 @@ namespace ejer4
 
             if (num1 == 0)
             {
-                Console.WriteLine("El divisor no puede ser 0");
+                Console.WriteLine("El divisor no puede ser 0. la operacion no se puede realizar");
             }
 
 
