@@ -29,7 +29,7 @@ namespace ejer4
             else
             {
                 Console.WriteLine("Numero 1 / Numero 2 ="+ num1 / num2 );
-                Console.WriteLine("Y su resto es " + num1 % num2);
+                Console.WriteLine("El resto de la division es " + num1 % num2);
             }
             
             
